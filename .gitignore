@@ -1,1 +1,4 @@
 /.idea/
+/venv/
+/testing/test_pytest/report
+/testing/test_pytest/result
