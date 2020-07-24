@@ -6,7 +6,7 @@
 # @desc    :
 from time import sleep
 import pytest
-from UI.baseinfo.SetupTeardown import setupTeardown
+from UI import setupTeardown
 
 class TestJs(setupTeardown):
     @pytest.mark.skip

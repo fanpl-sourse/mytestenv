@@ -6,7 +6,7 @@
 # @desc    :
 from time import sleep
 from selenium.webdriver import ActionChains
-from UI.baseinfo.SetupTeardown import setupTeardown
+from UI import setupTeardown
 
 
 class TestAlert(setupTeardown):

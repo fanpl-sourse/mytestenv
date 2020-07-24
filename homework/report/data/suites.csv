@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 24 16:42:58 CST 2020","Fri Jul 24 16:43:29 CST 2020","30991","homework","test_mobile_wechart","TestWechat","","","test_wechart_delete_member",""
+"skipped","Fri Jul 24 16:41:35 CST 2020","Fri Jul 24 16:41:35 CST 2020","0","homework","test_mobile_wechart","TestWechat","","","test_punch_the_clock",""
+"passed","Fri Jul 24 16:41:58 CST 2020","Fri Jul 24 16:42:28 CST 2020","29547","homework","test_mobile_wechart","TestWechat","","","test_wechart_addmember",""

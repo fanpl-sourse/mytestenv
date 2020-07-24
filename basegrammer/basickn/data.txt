@@ -1,0 +1,28 @@
+package com.fangdd.merchant.middleground.api.enums.msg;
+
+import java.util.Arrays;
+
+/**
+ * 活跃动作枚举
+ *
+ * @author zhangchao04
+ * @date 2020/06/15
+ */
+public enum ActiveActionEnum {
+
+
+    /**
+     * 报备
+     */
+    REFERRAL(1, "REFERRAL", "报备"),
+    /**
+     * 带看
+     */
+    GUIDE(2, "GUIDE", "带看"),
+    /**
+     * 成交
+     */
+    PURCHASE_ORDER(3, "PURCHASE_ORDER", "成交"),
+    /**
+     * 浏览楼盘首页
+     */

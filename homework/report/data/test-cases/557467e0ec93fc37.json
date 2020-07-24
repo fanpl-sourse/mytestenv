@@ -1,0 +1,56 @@
+{
+  "uid" : "557467e0ec93fc37",
+  "name" : "test_wechart_delete_member",
+  "fullName" : "homework.test_mobile_wechart.TestWechat#test_wechart_delete_member",
+  "historyId" : "b53b01f0cdf0ce06642e364163590245",
+  "time" : {
+    "start" : 1595580178022,
+    "stop" : 1595580209013,
+    "duration" : 30991
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "homework"
+  }, {
+    "name" : "suite",
+    "value" : "test_mobile_wechart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWechat"
+  }, {
+    "name" : "host",
+    "value" : "Yiron.local"
+  }, {
+    "name" : "thread",
+    "value" : "74439-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "homework.test_mobile_wechart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "557467e0ec93fc37.json",
+  "parameterValues" : [ ]
+}

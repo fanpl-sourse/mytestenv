@@ -1,0 +1,11 @@
+[ {
+  "uid" : "bac540799a9d401",
+  "name" : "test_case",
+  "time" : {
+    "start" : 1595400450958,
+    "stop" : 1595400450958,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

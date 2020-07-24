@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Yiron.local",
+    "children" : [ {
+      "name" : "9860-MainThread",
+      "children" : [ {
+        "name" : "test_case",
+        "uid" : "bac540799a9d401",
+        "parentUid" : "e525c90375e36aeaf1cb9a17c67959dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595400450958,
+          "stop" : 1595400450958,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e525c90375e36aeaf1cb9a17c67959dc"
+    } ],
+    "uid" : "0745e469de3a985a192a279c1abaf182"
+  } ]
+}

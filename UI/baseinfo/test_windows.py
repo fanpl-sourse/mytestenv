@@ -7,7 +7,7 @@
 import sys
 sys.path.append('..')
 from time import sleep
-from UI.baseinfo.SetupTeardown import setupTeardown
+from UI import setupTeardown
 
 
 class TestWindows(setupTeardown):

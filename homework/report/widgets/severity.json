@@ -1,0 +1,31 @@
+[ {
+  "uid" : "557467e0ec93fc37",
+  "name" : "test_wechart_delete_member",
+  "time" : {
+    "start" : 1595580178022,
+    "stop" : 1595580209013,
+    "duration" : 30991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c6e50d2588c53d8",
+  "name" : "test_punch_the_clock",
+  "time" : {
+    "start" : 1595580095577,
+    "stop" : 1595580095577,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6d744a3c4ed0a645",
+  "name" : "test_wechart_addmember",
+  "time" : {
+    "start" : 1595580118519,
+    "stop" : 1595580148066,
+    "duration" : 29547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

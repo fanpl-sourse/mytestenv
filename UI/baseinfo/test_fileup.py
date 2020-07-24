@@ -5,7 +5,7 @@
 # @Software: PyCharm
 # @desc    :
 from time import sleep
-from UI.baseinfo.SetupTeardown import setupTeardown
+from UI import setupTeardown
 
 
 class TestFile(setupTeardown):

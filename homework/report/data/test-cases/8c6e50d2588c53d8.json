@@ -1,0 +1,61 @@
+{
+  "uid" : "8c6e50d2588c53d8",
+  "name" : "test_punch_the_clock",
+  "fullName" : "homework.test_mobile_wechart.TestWechat#test_punch_the_clock",
+  "historyId" : "311b95aca31d3d7aff91b3994e2e9438",
+  "time" : {
+    "start" : 1595580095577,
+    "stop" : 1595580095577,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('homework/test_mobile_wechart.py', 36, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "parentSuite",
+    "value" : "homework"
+  }, {
+    "name" : "suite",
+    "value" : "test_mobile_wechart"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWechat"
+  }, {
+    "name" : "host",
+    "value" : "Yiron.local"
+  }, {
+    "name" : "thread",
+    "value" : "74439-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "homework.test_mobile_wechart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip" ]
+  },
+  "source" : "8c6e50d2588c53d8.json",
+  "parameterValues" : [ ]
+}
