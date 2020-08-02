@@ -14,6 +14,9 @@ class TestMain:
     def test_main(self):
         App().start().main().goto_search()
 
+    def test_windows(self):
+        App().start().main().goto_windows()
+
     @pytest.mark.parametrize('a,b',yaml.safe_load(open('../data/test_main_data.yaml')))
     def test_para(self,a,b):
         print(a)
