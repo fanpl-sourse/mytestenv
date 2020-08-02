@@ -23,6 +23,8 @@ class BasePage:
             for step in steps:
                 if "By" in step:
                     element = self.find(step['By'],step['locator'])
-                if "click" == step['action']:
-                    element.click()
+                if "action" in step:
+                    action = step['action']
+                    if "click" == action:
+                        element.click()
 

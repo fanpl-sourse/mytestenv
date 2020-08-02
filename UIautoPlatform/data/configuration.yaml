@@ -1,0 +1,7 @@
+caps:
+  platformName: android
+  deviceName: emulator-5554
+  appPackage:
+  noReset: True
+  skipSeverInstallation: True
+  unicodeKeyBord: true

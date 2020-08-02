@@ -4,6 +4,7 @@
 # @File    : app.py
 # @Software: PyCharm
 # @desc    :
+import yaml
 from appium import webdriver
 from UIautoPlatform.page.base_page import BasePage
 from UIautoPlatform.page.main import Main
@@ -22,14 +23,23 @@ class App(BasePage):
         :return:
         """
         if self._driver is None:
+            # desire_cap = {
+            #     "platformName": "android",
+            #     "deviceName": "emulator-5554",
+            #     "appPackage": self._package,
+            #     "appActivity": self._activity,
+            #     "noReset": True,
+            #     "skipSeverInstallation": True,
+            #     "unicodeKeyBord": 'true'
+            # }
             desire_cap = {
-                "platformName": "android",
-                "deviceName": "emulator-5554",
+                "platformName": yaml.safe_load(open('../data/configuration.yaml'))['caps']['platformName'],
+                "deviceName": yaml.safe_load(open('../data/configuration.yaml'))['caps']['deviceName'],
                 "appPackage": self._package,
                 "appActivity": self._activity,
-                "noReset": True,
-                "skipSeverInstallation": True,
-                "unicodeKeyBord": 'true'
+                "noReset": yaml.safe_load(open('../data/configuration.yaml'))['caps']['noReset'],
+                "skipSeverInstallation": yaml.safe_load(open('../data/configuration.yaml'))['caps']['skipSeverInstallation'],
+                "unicodeKeyBord": yaml.safe_load(open('../data/configuration.yaml'))['caps']['unicodeKeyBord']
             }
 
             self._driver = webdriver.Remote(
