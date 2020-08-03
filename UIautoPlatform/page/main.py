@@ -13,7 +13,11 @@ class Main(BasePage):
         self.find(MobileBy.ID,'com.xueqiu.android:id/tv_search').click()
 
     def goto_windows(self):
+        #点击推荐
+        self.find(MobileBy.XPATH,'//*[@text="推荐" and contains(@resource-id,"title_text")]').click()
+        #点击笔
         self.find(MobileBy.ID,'post_status').click()
+        #点击检索(上面需要将弹窗捕获并关闭)
         self.find(MobileBy.ID, 'tv_search').click()
 
     def get_steps(self,path = '../data/main.yaml'):
