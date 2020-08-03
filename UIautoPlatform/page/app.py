@@ -9,7 +9,6 @@ from appium import webdriver
 from UIautoPlatform.page.base_page import BasePage
 from UIautoPlatform.page.main import Main
 
-
 class App(BasePage):
     """
     定义了是否需要启动APP
@@ -53,5 +52,5 @@ class App(BasePage):
         #返回自身，方便在调用启动后，可以调用APP类中的其他方法
         return self
 
-    def main(self) -> Main:
+    def goto_main(self) -> Main:
         return Main(self._driver)
