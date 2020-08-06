@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Yiron.local",
+    "children" : [ {
+      "name" : "53787-MainThread",
+      "children" : [ {
+        "name" : "test_para[aaa-bbb]",
+        "uid" : "3d9a2545016120d2",
+        "parentUid" : "6f1436c3d4a6d4d02a1dbe34f959ddea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596635165865,
+          "stop" : 1596635165866,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'aaa'", "'bbb'" ]
+      }, {
+        "name" : "test_windows",
+        "uid" : "4f7dc26a2696d651",
+        "parentUid" : "6f1436c3d4a6d4d02a1dbe34f959ddea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596635128565,
+          "stop" : 1596635165859,
+          "duration" : 37294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_para[ccc-ddd]",
+        "uid" : "19aaaf0a443d08b9",
+        "parentUid" : "6f1436c3d4a6d4d02a1dbe34f959ddea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596635165870,
+          "stop" : 1596635165870,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ccc'", "'ddd'" ]
+      }, {
+        "name" : "test_main",
+        "uid" : "bba35395ee87d9e6",
+        "parentUid" : "6f1436c3d4a6d4d02a1dbe34f959ddea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596635114128,
+          "stop" : 1596635128561,
+          "duration" : 14433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6f1436c3d4a6d4d02a1dbe34f959ddea"
+    } ],
+    "uid" : "0745e469de3a985a192a279c1abaf182"
+  } ]
+}

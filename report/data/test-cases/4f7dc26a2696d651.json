@@ -1,0 +1,84 @@
+{
+  "uid" : "4f7dc26a2696d651",
+  "name" : "test_windows",
+  "fullName" : "UIautoPlatform.test_case.test_main.TestMain#test_windows",
+  "historyId" : "14326b142855d12f9d8233953d1a819d",
+  "time" : {
+    "start" : 1596635128565,
+    "stop" : 1596635165859,
+    "duration" : 37294
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "208b3f5c30ec1848",
+      "name" : "黑名单截图",
+      "source" : "208b3f5c30ec1848.png",
+      "type" : "image/png",
+      "size" : 103699
+    }, {
+      "uid" : "b32d99bbe2c939e8",
+      "name" : "log",
+      "source" : "b32d99bbe2c939e8.txt",
+      "type" : "text/plain",
+      "size" : 515
+    }, {
+      "uid" : "cc291493c43adb2e",
+      "name" : "stderr",
+      "source" : "cc291493c43adb2e.txt",
+      "type" : "text/plain",
+      "size" : 353
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "UIautoPlatform.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "Yiron.local"
+  }, {
+    "name" : "thread",
+    "value" : "53787-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "UIautoPlatform.test_case.test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f7dc26a2696d651.json",
+  "parameterValues" : [ ]
+}

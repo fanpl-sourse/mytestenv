@@ -1,0 +1,17 @@
+[32mINFO    [0m root:handle_black.py:26 run find
+ args: 
+('xpath', '//*[@text="推荐" and contains(@resource-id,"title_text")]')
+{}
+[32mINFO    [0m root:handle_black.py:26 run find
+ args: 
+('id', 'post_status')
+{}
+[32mINFO    [0m root:handle_black.py:26 run find
+ args: 
+('id', 'com.xueqiu.android:id/tv_search')
+{}
+[31m[1mERROR   [0m root:handle_black.py:36 元素没有找到，进行黑名单处理
+[32mINFO    [0m root:handle_black.py:26 run find
+ args: 
+('id', 'com.xueqiu.android:id/tv_search')
+{}

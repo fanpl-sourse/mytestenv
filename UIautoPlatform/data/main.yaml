@@ -1,3 +1,19 @@
-- by: id
-  locator: tv_search
-  action: click
+goto_search:
+  - by: id
+    locator: tv_search
+    action: click
+goto_windows:
+  - by: xpath
+    locator: '//*[@text="推荐" and contains(@resource-id,"title_text")]'
+    action: click
+  - by: id
+    locator: post_status
+    action: click
+  - action: sleep
+  - by: id
+    locator: 'com.xueqiu.android:id/tv_search'
+    action: click
+goto_market:
+  - by: xpath
+    locator: '//*[@resource-id="android:id/tabs"]//*[@text="行情"]'
+    action: click

@@ -14,5 +14,5 @@ class Market(BasePage):
     行情
     """
     def goto_search(self):
-        self.find(MobileBy.ID,'com.xueqiu.android:id/action_search').click()
+        self.read_file_steps('../data/market.yaml','goto_search')
         return MarketSearch(self._driver)

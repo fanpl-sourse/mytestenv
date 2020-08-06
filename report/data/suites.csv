@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 05 21:45:28 CST 2020","Wed Aug 05 21:46:05 CST 2020","37294","UIautoPlatform.test_case","test_main","TestMain","","","test_windows",""
+"passed","Wed Aug 05 21:46:05 CST 2020","Wed Aug 05 21:46:05 CST 2020","1","UIautoPlatform.test_case","test_main","TestMain","","","test_para[aaa-bbb]",""
+"passed","Wed Aug 05 21:46:05 CST 2020","Wed Aug 05 21:46:05 CST 2020","0","UIautoPlatform.test_case","test_main","TestMain","","","test_para[ccc-ddd]",""
+"passed","Wed Aug 05 21:45:14 CST 2020","Wed Aug 05 21:45:28 CST 2020","14433","UIautoPlatform.test_case","test_main","TestMain","","","test_main",""

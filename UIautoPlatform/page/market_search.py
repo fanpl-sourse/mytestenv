@@ -13,15 +13,13 @@ class MarketSearch(BasePage):
     行情页面的检索页面
     """
     def send_search_key(self,stockname):
-        #输入检索内容
-        self.find(MobileBy.ID,'search_input_text').send_keys("阿里巴巴")
-        #在查询弹出中选中阿里巴巴-SW
-        self.find(MobileBy.XPATH,f'//*[@text="{stockname}"]').click()
-        #获取查询结果中的阿里巴巴-SW并添加自选
-        self.find(MobileBy.XPATH,f'//*[contains(@resource-id,"ll_stock_item_container")]//*[@text="{stockname}"]/../..//*[@text="加自选"]').click()
+        self._params['stockname'] = stockname
+        self.read_file_steps('../data/search.yaml','send_search_key')
 
     def is_choose(self,stockname):
         eles = self.finds(MobileBy.XPATH,
                   f'//*[contains(@resource-id,"ll_stock_item_container")]//*[@text="{stockname}"]/../..//*[@text="已添加"]')
 
         return len(eles) > 0
+        # self._params['stockname'] = stockname
+        # self.read_file_steps('../data/search.yaml','is_choose')

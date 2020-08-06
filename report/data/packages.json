@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "UIautoPlatform.test_case.test_main",
+    "children" : [ {
+      "name" : "test_main",
+      "uid" : "bba35395ee87d9e6",
+      "parentUid" : "977be9f2dab448195cec74e997ba4c59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596635114128,
+        "stop" : 1596635128561,
+        "duration" : 14433
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_windows",
+      "uid" : "4f7dc26a2696d651",
+      "parentUid" : "977be9f2dab448195cec74e997ba4c59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596635128565,
+        "stop" : 1596635165859,
+        "duration" : 37294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_para[aaa-bbb]",
+      "uid" : "3d9a2545016120d2",
+      "parentUid" : "977be9f2dab448195cec74e997ba4c59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596635165865,
+        "stop" : 1596635165866,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'aaa'", "'bbb'" ]
+    }, {
+      "name" : "test_para[ccc-ddd]",
+      "uid" : "19aaaf0a443d08b9",
+      "parentUid" : "977be9f2dab448195cec74e997ba4c59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596635165870,
+        "stop" : 1596635165870,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'ccc'", "'ddd'" ]
+    } ],
+    "uid" : "UIautoPlatform.test_case.test_main"
+  } ]
+}

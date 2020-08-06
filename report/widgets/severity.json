@@ -1,0 +1,41 @@
+[ {
+  "uid" : "3d9a2545016120d2",
+  "name" : "test_para[aaa-bbb]",
+  "time" : {
+    "start" : 1596635165865,
+    "stop" : 1596635165866,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19aaaf0a443d08b9",
+  "name" : "test_para[ccc-ddd]",
+  "time" : {
+    "start" : 1596635165870,
+    "stop" : 1596635165870,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bba35395ee87d9e6",
+  "name" : "test_main",
+  "time" : {
+    "start" : 1596635114128,
+    "stop" : 1596635128561,
+    "duration" : 14433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f7dc26a2696d651",
+  "name" : "test_windows",
+  "time" : {
+    "start" : 1596635128565,
+    "stop" : 1596635165859,
+    "duration" : 37294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

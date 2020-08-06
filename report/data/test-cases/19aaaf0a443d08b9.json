@@ -1,0 +1,78 @@
+{
+  "uid" : "19aaaf0a443d08b9",
+  "name" : "test_para[ccc-ddd]",
+  "fullName" : "UIautoPlatform.test_case.test_main.TestMain#test_para",
+  "historyId" : "4a69b7654732dd3c03d1c453fe05dfcd",
+  "time" : {
+    "start" : 1596635165870,
+    "stop" : 1596635165870,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "612737592e415b79",
+      "name" : "stdout",
+      "source" : "612737592e415b79.txt",
+      "type" : "text/plain",
+      "size" : 8
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "UIautoPlatform.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_main"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "Yiron.local"
+  }, {
+    "name" : "thread",
+    "value" : "53787-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "UIautoPlatform.test_case.test_main"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "'ccc'"
+  }, {
+    "name" : "b",
+    "value" : "'ddd'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19aaaf0a443d08b9.json",
+  "parameterValues" : [ "'ccc'", "'ddd'" ]
+}

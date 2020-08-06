@@ -1,0 +1,17 @@
+INFO:root:run find
+ args: 
+('xpath', '//*[@text="推荐" and contains(@resource-id,"title_text")]')
+{}
+INFO:root:run find
+ args: 
+('id', 'post_status')
+{}
+INFO:root:run find
+ args: 
+('id', 'com.xueqiu.android:id/tv_search')
+{}
+ERROR:root:元素没有找到，进行黑名单处理
+INFO:root:run find
+ args: 
+('id', 'com.xueqiu.android:id/tv_search')
+{}

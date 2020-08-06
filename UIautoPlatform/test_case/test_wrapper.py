@@ -13,8 +13,8 @@ def wrapper1(func):
     #允许所有类型的入参
     def hello(*args,**kwargs):
         print(args)
-        print(kwargs)
         func()
+        print(kwargs)
 
     return hello
 
