@@ -1,0 +1,13 @@
+create:
+      "methord": "post"
+      "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create?access_token=${access_token}"
+      "userid": "penpen"
+      "name": "盆盆"
+      "alias": "penpen"
+      "mobile": "+86 13110000001"
+
+get:
+      "userid": "penpen改",
+      "name": "盆盆改",
+      "alias": "penpen改",
+      "mobile": "+86 13119900000"
