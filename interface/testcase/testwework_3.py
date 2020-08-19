@@ -4,6 +4,8 @@
 # @File    : wework_1.py
 # @Software: PyCharm
 # @desc    :
+import requests
+
 from interface.weworkApi.wework_3 import Member
 from interface.weworkApi.util import Util
 class TestWework:
@@ -21,3 +23,9 @@ class TestWework:
 
     def test_delete_member(self):
         Member().delete_member('ee2')
+
+    def test_session(self):
+        s = requests.session()
+        s.params = {"access_token":Util().get_access_token()}
+        res = s.get('https://qyapi.weixin.qq.com/cgi-bin/user/get?userid=ee2')
+        print(res.json())
