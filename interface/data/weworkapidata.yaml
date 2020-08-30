@@ -1,0 +1,16 @@
+create_tag:
+  'method':  'post'
+  'url':  'https://qyapi.weixin.qq.com/cgi-bin/tag/create?access_token=${access_token}'
+  'json':
+    "tagname":  ${tagname}
+
+update_tagname:
+  'method':  'post'
+  'url':  'https://qyapi.weixin.qq.com/cgi-bin/tag/update?access_token=${access_token}'
+  'json':
+    "tagid": ${tagid}
+    "tagname": ${tagname}
+
+delete_tag:
+  'method': 'get'
+  'url': 'https://qyapi.weixin.qq.com/cgi-bin/tag/delete?access_token=${access_token}&tagid=${tagid}'

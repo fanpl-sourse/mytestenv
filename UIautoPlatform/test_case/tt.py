@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020/8/4 16:39
 # @Author  : 饭盆里
-# @File    : tt.py
+# @File    : selenium_ui_jenkins.py
 # @Software: PyCharm
 # @desc    :
 import os

@@ -21,7 +21,7 @@ HTMLTestRunner is a counterpart to unittest's TextTestRunner. E.g.
     fp = file('my_report.html', 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(
                 stream=fp,
-                title='My unit test',
+                title='My unit selenium_ui_jenkins',
                 description='This demonstrates the report output by HTMLTestRunner.'
                 )
 
@@ -29,7 +29,7 @@ HTMLTestRunner is a counterpart to unittest's TextTestRunner. E.g.
     # See the Template_mixin class for more customizable options
     runner.STYLESHEET_TMPL = '<link rel="stylesheet" href="my_stylesheet.css" type="text/css">'
 
-    # run the test
+    # run the selenium_ui_jenkins
     runner.run(my_test_suite)
 
 
@@ -85,7 +85,7 @@ Version 0.8.2
 
 Version in 0.8.1
 * Validated XHTML (Wolfgang Borgert).
-* Added description of test classes and test cases.
+* Added description of selenium_ui_jenkins classes and selenium_ui_jenkins cases.
 
 Version in 0.8.0
 * Define Template_mixin class for customization.
@@ -715,7 +715,7 @@ class HTMLTestRunner(Template_mixin):
         self.startTime = datetime.datetime.now()
 
     def run(self, test):
-        "Run the given test case or test suite."
+        "Run the given selenium_ui_jenkins case or selenium_ui_jenkins suite."
         result = _TestResult(self.verbosity)
         test(result)
         self.stopTime = datetime.datetime.now()
@@ -879,16 +879,16 @@ class HTMLTestRunner(Template_mixin):
 # Facilities for running tests from the command line
 ##############################################################################
 
-# Note: Reuse unittest.TestProgram to launch test. In the future we may
+# Note: Reuse unittest.TestProgram to launch selenium_ui_jenkins. In the future we may
 # build our own launcher to support more specific command line
-# parameters like test title, CSS, etc.
+# parameters like selenium_ui_jenkins title, CSS, etc.
 class TestProgram(unittest.TestProgram):
     """
     A variation of the unittest.TestProgram. Please refer to the base
     class for command line parameters.
     """
     def runTests(self):
-        # Pick HTMLTestRunner as the default test runner.
+        # Pick HTMLTestRunner as the default selenium_ui_jenkins runner.
         # base class's testRunner parameter is not useful because it means
         # we have to instantiate HTMLTestRunner before we know self.verbosity.
         if self.testRunner is None:

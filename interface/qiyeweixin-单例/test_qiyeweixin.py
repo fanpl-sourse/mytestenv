@@ -60,6 +60,7 @@ class TestMember():
         :return:
         """
         # access_token = self.get_access_token()
+        print(get_access_token)
         r = requests.get(f'https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token={get_access_token}&userid={userid}')
         print(r.json())
         return r.json()

@@ -70,7 +70,7 @@ def pytest_addoption(parser):
     # 设置一个group节点
     mygroup = parser.getgroup("fanpl")
     mygroup.addoption("--env",  #注册一个命令行选项
-                      default='test',
+                      default='selenium_ui_jenkins',
                       dest='env',
                       help = 'set your run env'
                       )
@@ -83,10 +83,10 @@ def cmdoption(request):
     :param request:
     :return:
     """
-    myenv =  request.config.getoption('--env',default='test')
+    myenv =  request.config.getoption('--env',default='selenium_ui_jenkins')
 
-    if myenv == 'test':
-        datapath = '../data/test/test.yaml'
+    if myenv == 'selenium_ui_jenkins':
+        datapath = '../data/selenium_ui_jenkins/selenium_ui_jenkins.yaml'
     elif myenv == 'dev':
         datapath = '../data/dev/dev.yaml'
 

@@ -38,7 +38,7 @@ class Member(BaseApi):
         获取成员
         :return:
         """
-        r = requests.get(f'https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token={self.access_token}access_token&userid={userid}')
+        r = requests.get(f'https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token={self.access_token}&userid={userid}')
         print(r.json())
         return r.json()
 

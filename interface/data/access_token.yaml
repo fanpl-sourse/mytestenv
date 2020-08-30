@@ -1,0 +1,6 @@
+access_token:
+    'method': 'get'
+    'url':  'https://qyapi.weixin.qq.com/cgi-bin/gettoken'
+    'params':
+        "corpid":  "ww9141708bbda1c588"
+        "corpsecret":  "F_AGdOLLFROJupVo2-H6WGjg8SErlDPb4OBVTsUlOp4"

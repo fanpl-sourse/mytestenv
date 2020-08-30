@@ -8,17 +8,17 @@
 import pytest
 
 def test_success():
-    """this test succeeds"""
+    """this selenium_ui_jenkins succeeds"""
     assert True
 
 
 def test_failure():
-    """this test fails"""
+    """this selenium_ui_jenkins fails"""
     assert False
 
 
 def test_skip():
-    """this test is skipped"""
+    """this selenium_ui_jenkins is skipped"""
     pytest.skip('for a reason!')
 
 

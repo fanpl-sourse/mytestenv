@@ -43,7 +43,7 @@ class Member(BaseApi):
         """
         data = {
             "method":"get",
-            "url":f'https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token={self.access_token}access_token&userid={userid}'
+            "url":f'https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token={self.access_token}&userid={userid}'
         }
         print(self.send(data))
         return self.send(data)

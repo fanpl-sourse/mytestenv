@@ -3,76 +3,63 @@
 # @Author  : 饭盆里
 # @File    : wework_1.py
 # @Software: PyCharm
-# @desc    : 第二次优化：使用send 将方法提取出去
-
-import pytest
-import requests
+# @desc    : 第三次优化：数据放到数据文件yaml 中，实现数据与代码的分离
 from interface.weworkApi.util import Util
 from interface.weworkApi.baseapi import BaseApi
-
 
 class Member(BaseApi):
 
     def __init__(self):
-        self.access_token = Util().get_access_token()
+        u = Util()
+        self.data = u.get_yaml_data('../data/weworkdata.yaml')
+        self.params['access_token'] = u.get_access_token()
 
     def create_member(self,userid,name,alias,mobile):
         """
         创建通讯录用户
         :return:
         """
-        data = {
-            "method" : "post",
-            "url"    :   f'https://qyapi.weixin.qq.com/cgi-bin/user/create?access_token={self.access_token}',
-            "json"   :   {
-                    "userid": userid,
-                    "name": name,
-                    "alias": alias,
-                    "mobile": mobile,
-                    "department": [1]
-            }
-        }
+        self.params['userid'] = userid
+        self.params['name'] = name
+        self.params['alias'] = alias
+        self.params['mobile'] = mobile
 
-        print(self.send(data))
-        return self.send(data)
+        data = self.data['create_member']
+        response = self.send_1(data)
+        print("response >>  "+str(response))
+        return response
 
     def get_member(self,userid):
         """
         获取成员
         :return:
         """
-        data = {
-            "method":"get",
-            "url":f'https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token={self.access_token}access_token&userid={userid}'
-        }
-        print(self.send(data))
-        return self.send(data)
+        self.params['userid'] = userid
+        data = self.data['get_member']
+        response = self.send_1(data)
+        print("response >>  "+str(response))
+        return response
 
     def update_member(self,userid,name,alias):
         """
         更新成员
         :return:
         """
-        data = {
-            "method":"post",
-            "url":f'https://qyapi.weixin.qq.com/cgi-bin/user/update?access_token={self.access_token}',
-            "json" : {
-                "userid": userid,
-                "name": name,
-                "alias": alias,
-            }
-        }
-        print(self.send(data))
-        return self.send(data)
+        self.params['userid'] = userid
+        self.params['name'] = name
+        self.params['alias'] = alias
+        data = self.data['update_member']
+        response = self.send_1(data)
+        print(response)
+        return response
 
     def delete_member(self,userid):
         """
         删除成员
         :return:
         """
-        data = {
-            "method":"get",
-            "url":f'https://qyapi.weixin.qq.com/cgi-bin/user/delete?access_token={self.access_token}&userid={userid}'
-        }
-        print(self.send(data))
-        return self.send(data)
+        self.params['userid'] = userid
+        data = self.data['delelte_member']
+        response = self.send_1(data)
+        print(response)
+        return response

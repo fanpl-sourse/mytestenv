@@ -92,7 +92,7 @@ class TestRequests():
 
     def test_oauth(self):
         r = requests.get('http://httpbin.testing-studio.com/basic-auth/test/123',
-                         auth = ("test","123"))
+                         auth = ("selenium_ui_jenkins","123"))
         print(r.text)
 
 

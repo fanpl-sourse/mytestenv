@@ -1,6 +1,7 @@
 FROM python:3.7-alpine
 LABEL maintainer='fanpl'
 
+ADD . /code
 #工作路径设定
 WORKDIR /Users/a/Documents/2020study/mytestenv/docker/code
 
@@ -20,4 +21,4 @@ EXPOSE 5000
 STOPSIGNAL SIGTERM
 
 #为容器设置默认启动命令
-CMD 【"flask"，"run"】
+CMD ["flask"，"run"]

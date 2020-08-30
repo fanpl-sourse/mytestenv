@@ -8,6 +8,23 @@ create_member:
     "mobile": ${mobile}
     "department": [1]
 
+get_member:
+  "method":  "get"
+  "url":     'https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=${access_token}&userid=${userid}'
+
+update_member:
+  "method": "post"
+  "url" :   'https://qyapi.weixin.qq.com/cgi-bin/user/update?access_token=${access_token}'
+  "json":
+         "userid": ${userid}
+         "name": ${name}
+         "alias": ${alias}
+
+delelte_member:
+  "method": "get"
+  "url":    'https://qyapi.weixin.qq.com/cgi-bin/user/delete?access_token=${access_token}&userid=${userid}'
+
+
 
 
 
