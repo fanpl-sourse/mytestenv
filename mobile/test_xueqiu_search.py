@@ -5,6 +5,8 @@
 # @Software: PyCharm
 # @desc    :
 from time import sleep
+
+import pytest
 from hamcrest import *
 from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy
@@ -49,6 +51,7 @@ class TestXueqiuSearch():
 
     assert current_price>200
 
+  @pytest.mark.skip
   def test_attr(self):
     """
     1. 打开【雪球】首页
@@ -74,6 +77,7 @@ class TestXueqiuSearch():
       else:
         print("搜索失败")
 
+  @pytest.mark.skip
   def test_touch(self):
     """
     文本信息
@@ -89,6 +93,7 @@ class TestXueqiuSearch():
     action.press(x=x,y=y2).wait(2000).move_to(x=x,y=y1).release().perform()
     sleep(3)
 
+  @pytest.mark.skip
   def test_myinfo(self):
     """
     1. 点击我的，进入个人信息页
@@ -111,6 +116,7 @@ class TestXueqiuSearch():
     text = self.driver.find_element(MobileBy.ID,'com.xueqiu.android:id/md_content').text
     assert '错误' in text
 
+  @pytest.mark.skip
   def test_alibaba_hkprice(self):
 
     self.driver.find_element(MobileBy.ID,'com.xueqiu.android:id/tv_search').click()
@@ -132,6 +138,7 @@ class TestXueqiuSearch():
     print(current_price)
     assert_that(current_price,close_to(expect_price,expect_price*0.5))
 
+  @pytest.mark.skip
   def test_scroll_find_element(self):
     self.driver.find_element_by_android_uiautomator('new UiSelector().text("关注")').click()
     self.driver.find_element_by_android_uiautomator('new UiScrollable(new UiSelector().scrollable(true).instance(0)).'
