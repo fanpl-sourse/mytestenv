@@ -1,0 +1,15 @@
+9月 01, 2020 12:31:25 上午 hudson.remoting.SynchronousCommandTransport$ReaderThread run
+信息: I/O error in channel channel
+java.io.IOException: Unexpected termination of the channel
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:77)
+Caused by: java.io.EOFException
+	at java.base/java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2818)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3313)
+	at java.base/java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:907)
+	at java.base/java.io.ObjectInputStream.<init>(ObjectInputStream.java:350)
+	at hudson.remoting.ObjectInputStreamEx.<init>(ObjectInputStreamEx.java:49)
+	at hudson.remoting.Command.readFrom(Command.java:142)
+	at hudson.remoting.Command.readFrom(Command.java:128)
+	at hudson.remoting.AbstractSynchronousByteArrayCommandTransport.read(AbstractSynchronousByteArrayCommandTransport.java:35)
+	at hudson.remoting.SynchronousCommandTransport$ReaderThread.run(SynchronousCommandTransport.java:63)
+
