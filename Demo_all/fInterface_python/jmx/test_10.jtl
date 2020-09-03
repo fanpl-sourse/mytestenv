@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="118" it="0" lt="117" ct="41" ts="1599125448238" s="true" lb="1. ShenZhen" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="605" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:48 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 2321802
+X-Via: 1.1 PSbjwjBGP2ih137:3 (Cdn Cache Server V2.0), 1.1 PS-SHE-01gfJ52:10 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7c8_PS-SWA-015Pk105_45594-59004
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;深圳&quot;,&quot;cityid&quot;:&quot;101280601&quot;,&quot;temp1&quot;:&quot;24℃&quot;,&quot;temp2&quot;:&quot;30℃&quot;,&quot;weather&quot;:&quot;阵雨转大雨&quot;,&quot;img1&quot;:&quot;n3.gif&quot;,&quot;img2&quot;:&quot;d9.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101280601.html</java.net.URL>
+</httpSample>
+<httpSample t="138" it="0" lt="137" ct="61" ts="1599125448218" s="true" lb="1. ShenZhen" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="605" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:48 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 2321802
+X-Via: 1.1 PSbjwjBGP2ih137:3 (Cdn Cache Server V2.0), 1.1 PS-SHE-01gfJ52:10 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7c8_PS-SWA-015Pk105_45594-59005
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;深圳&quot;,&quot;cityid&quot;:&quot;101280601&quot;,&quot;temp1&quot;:&quot;24℃&quot;,&quot;temp2&quot;:&quot;30℃&quot;,&quot;weather&quot;:&quot;阵雨转大雨&quot;,&quot;img1&quot;:&quot;n3.gif&quot;,&quot;img2&quot;:&quot;d9.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101280601.html</java.net.URL>
+</httpSample>
+<httpSample t="82" it="0" lt="81" ct="19" ts="1599125448340" s="true" lb="1. ShenZhen" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="605" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:48 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 2321802
+X-Via: 1.1 PSbjwjBGP2ih137:3 (Cdn Cache Server V2.0), 1.1 PS-SHE-01gfJ52:10 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7c8_PS-SWA-015Pk105_44561-54413
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;深圳&quot;,&quot;cityid&quot;:&quot;101280601&quot;,&quot;temp1&quot;:&quot;24℃&quot;,&quot;temp2&quot;:&quot;30℃&quot;,&quot;weather&quot;:&quot;阵雨转大雨&quot;,&quot;img1&quot;:&quot;n3.gif&quot;,&quot;img2&quot;:&quot;d9.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101280601.html</java.net.URL>
+</httpSample>
+<httpSample t="54" it="0" lt="54" ct="21" ts="1599125448438" s="true" lb="1. ShenZhen" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="605" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:48 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 2321802
+X-Via: 1.1 PSbjwjBGP2ih137:3 (Cdn Cache Server V2.0), 1.1 PS-SHE-01gfJ52:10 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7c8_PS-SWA-015Pk105_43926-13757
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;深圳&quot;,&quot;cityid&quot;:&quot;101280601&quot;,&quot;temp1&quot;:&quot;24℃&quot;,&quot;temp2&quot;:&quot;30℃&quot;,&quot;weather&quot;:&quot;阵雨转大雨&quot;,&quot;img1&quot;:&quot;n3.gif&quot;,&quot;img2&quot;:&quot;d9.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101280601.html</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="42" ct="21" ts="1599125448534" s="true" lb="1. ShenZhen" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="605" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:48 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 2321802
+X-Via: 1.1 PSbjwjBGP2ih137:3 (Cdn Cache Server V2.0), 1.1 PS-SHE-01gfJ52:10 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7c8_PS-SWA-015Pk105_43807-13524
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;深圳&quot;,&quot;cityid&quot;:&quot;101280601&quot;,&quot;temp1&quot;:&quot;24℃&quot;,&quot;temp2&quot;:&quot;30℃&quot;,&quot;weather&quot;:&quot;阵雨转大雨&quot;,&quot;img1&quot;:&quot;n3.gif&quot;,&quot;img2&quot;:&quot;d9.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101280601.html</java.net.URL>
+</httpSample>
+<httpSample t="38" it="0" lt="38" ct="18" ts="1599125448640" s="true" lb="1. ShenZhen" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="604" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:48 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 2321802
+X-Via: 1.1 PSbjwjBGP2ih137:3 (Cdn Cache Server V2.0), 1.1 PS-SHE-01gfJ52:10 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7c8_PS-SWA-015Pk105_45561-5911
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;深圳&quot;,&quot;cityid&quot;:&quot;101280601&quot;,&quot;temp1&quot;:&quot;24℃&quot;,&quot;temp2&quot;:&quot;30℃&quot;,&quot;weather&quot;:&quot;阵雨转大雨&quot;,&quot;img1&quot;:&quot;n3.gif&quot;,&quot;img2&quot;:&quot;d9.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101280601.html</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="39" ct="18" ts="1599125448738" s="true" lb="1. ShenZhen" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="605" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:48 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 2321802
+X-Via: 1.1 PSbjwjBGP2ih137:3 (Cdn Cache Server V2.0), 1.1 PS-SHE-01gfJ52:10 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7c8_PS-SWA-015Pk105_45168-23512
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;深圳&quot;,&quot;cityid&quot;:&quot;101280601&quot;,&quot;temp1&quot;:&quot;24℃&quot;,&quot;temp2&quot;:&quot;30℃&quot;,&quot;weather&quot;:&quot;阵雨转大雨&quot;,&quot;img1&quot;:&quot;n3.gif&quot;,&quot;img2&quot;:&quot;d9.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101280601.html</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="40" ct="19" ts="1599125448838" s="true" lb="1. ShenZhen" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="605" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:48 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 2321802
+X-Via: 1.1 PSbjwjBGP2ih137:3 (Cdn Cache Server V2.0), 1.1 PS-SHE-01gfJ52:10 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7c8_PS-SWA-015Pk105_43644-62661
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;深圳&quot;,&quot;cityid&quot;:&quot;101280601&quot;,&quot;temp1&quot;:&quot;24℃&quot;,&quot;temp2&quot;:&quot;30℃&quot;,&quot;weather&quot;:&quot;阵雨转大雨&quot;,&quot;img1&quot;:&quot;n3.gif&quot;,&quot;img2&quot;:&quot;d9.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101280601.html</java.net.URL>
+</httpSample>
+<httpSample t="40" it="0" lt="40" ct="19" ts="1599125448936" s="true" lb="1. ShenZhen" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="605" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:48 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 2321802
+X-Via: 1.1 PSbjwjBGP2ih137:3 (Cdn Cache Server V2.0), 1.1 PS-SHE-01gfJ52:10 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7c8_PS-SWA-015Pk105_43517-35609
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;深圳&quot;,&quot;cityid&quot;:&quot;101280601&quot;,&quot;temp1&quot;:&quot;24℃&quot;,&quot;temp2&quot;:&quot;30℃&quot;,&quot;weather&quot;:&quot;阵雨转大雨&quot;,&quot;img1&quot;:&quot;n3.gif&quot;,&quot;img2&quot;:&quot;d9.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101280601.html</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="21" ts="1599125449038" s="true" lb="1. ShenZhen" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="605" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:49 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 2321803
+X-Via: 1.1 PSbjwjBGP2ih137:3 (Cdn Cache Server V2.0), 1.1 PS-SHE-01gfJ52:10 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7c9_PS-SWA-015Pk105_45978-39057
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;深圳&quot;,&quot;cityid&quot;:&quot;101280601&quot;,&quot;temp1&quot;:&quot;24℃&quot;,&quot;temp2&quot;:&quot;30℃&quot;,&quot;weather&quot;:&quot;阵雨转大雨&quot;,&quot;img1&quot;:&quot;n3.gif&quot;,&quot;img2&quot;:&quot;d9.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101280601.html</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="25" ts="1599125451406" s="true" lb="2. ShangHai" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="601" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:51 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 6120
+X-Via: 1.1 PSbjwjBGP2ks135:3 (Cdn Cache Server V2.0), 1.1 pingwangtong31:4 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cb_PS-SWA-015Pk105_45357-61618
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;上海&quot;,&quot;cityid&quot;:&quot;101020100&quot;,&quot;temp1&quot;:&quot;19℃&quot;,&quot;temp2&quot;:&quot;23℃&quot;,&quot;weather&quot;:&quot;大雨转中雨&quot;,&quot;img1&quot;:&quot;n9.gif&quot;,&quot;img2&quot;:&quot;d8.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101020100.html</java.net.URL>
+</httpSample>
+<httpSample t="49" it="0" lt="49" ct="26" ts="1599125451406" s="true" lb="2. ShangHai" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="601" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:51 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 6120
+X-Via: 1.1 PSbjwjBGP2ks135:3 (Cdn Cache Server V2.0), 1.1 pingwangtong31:4 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cb_PS-SWA-015Pk105_43470-55665
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;上海&quot;,&quot;cityid&quot;:&quot;101020100&quot;,&quot;temp1&quot;:&quot;19℃&quot;,&quot;temp2&quot;:&quot;23℃&quot;,&quot;weather&quot;:&quot;大雨转中雨&quot;,&quot;img1&quot;:&quot;n9.gif&quot;,&quot;img2&quot;:&quot;d8.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101020100.html</java.net.URL>
+</httpSample>
+<httpSample t="37" it="0" lt="36" ct="17" ts="1599125451426" s="true" lb="2. ShangHai" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="601" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:51 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 6120
+X-Via: 1.1 PSbjwjBGP2ks135:3 (Cdn Cache Server V2.0), 1.1 pingwangtong31:4 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cb_PS-SWA-015Pk105_43583-44565
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;上海&quot;,&quot;cityid&quot;:&quot;101020100&quot;,&quot;temp1&quot;:&quot;19℃&quot;,&quot;temp2&quot;:&quot;23℃&quot;,&quot;weather&quot;:&quot;大雨转中雨&quot;,&quot;img1&quot;:&quot;n9.gif&quot;,&quot;img2&quot;:&quot;d8.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101020100.html</java.net.URL>
+</httpSample>
+<httpSample t="44" it="0" lt="44" ct="18" ts="1599125451500" s="true" lb="2. ShangHai" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="601" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:51 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 6120
+X-Via: 1.1 PSbjwjBGP2ks135:3 (Cdn Cache Server V2.0), 1.1 pingwangtong31:4 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cb_PS-SWA-015Pk105_43690-34026
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;上海&quot;,&quot;cityid&quot;:&quot;101020100&quot;,&quot;temp1&quot;:&quot;19℃&quot;,&quot;temp2&quot;:&quot;23℃&quot;,&quot;weather&quot;:&quot;大雨转中雨&quot;,&quot;img1&quot;:&quot;n9.gif&quot;,&quot;img2&quot;:&quot;d8.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101020100.html</java.net.URL>
+</httpSample>
+<httpSample t="39" it="0" lt="38" ct="20" ts="1599125451583" s="true" lb="2. ShangHai" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="601" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:51 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 6120
+X-Via: 1.1 PSbjwjBGP2ks135:3 (Cdn Cache Server V2.0), 1.1 pingwangtong31:4 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cb_PS-SWA-015Pk105_43644-64413
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;上海&quot;,&quot;cityid&quot;:&quot;101020100&quot;,&quot;temp1&quot;:&quot;19℃&quot;,&quot;temp2&quot;:&quot;23℃&quot;,&quot;weather&quot;:&quot;大雨转中雨&quot;,&quot;img1&quot;:&quot;n9.gif&quot;,&quot;img2&quot;:&quot;d8.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101020100.html</java.net.URL>
+</httpSample>
+<httpSample t="36" it="0" lt="35" ct="17" ts="1599125451683" s="true" lb="2. ShangHai" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="601" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:51 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 6120
+X-Via: 1.1 PSbjwjBGP2ks135:3 (Cdn Cache Server V2.0), 1.1 pingwangtong31:4 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cb_PS-SWA-015Pk105_43926-16219
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;上海&quot;,&quot;cityid&quot;:&quot;101020100&quot;,&quot;temp1&quot;:&quot;19℃&quot;,&quot;temp2&quot;:&quot;23℃&quot;,&quot;weather&quot;:&quot;大雨转中雨&quot;,&quot;img1&quot;:&quot;n9.gif&quot;,&quot;img2&quot;:&quot;d8.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101020100.html</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="23" ts="1599125451780" s="true" lb="2. ShangHai" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="601" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:51 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 6120
+X-Via: 1.1 PSbjwjBGP2ks135:3 (Cdn Cache Server V2.0), 1.1 pingwangtong31:4 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cb_PS-SWA-015Pk105_45466-45515
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;上海&quot;,&quot;cityid&quot;:&quot;101020100&quot;,&quot;temp1&quot;:&quot;19℃&quot;,&quot;temp2&quot;:&quot;23℃&quot;,&quot;weather&quot;:&quot;大雨转中雨&quot;,&quot;img1&quot;:&quot;n9.gif&quot;,&quot;img2&quot;:&quot;d8.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101020100.html</java.net.URL>
+</httpSample>
+<httpSample t="48" it="0" lt="48" ct="19" ts="1599125451980" s="true" lb="2. ShangHai" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="601" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:52 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 6121
+X-Via: 1.1 PSbjwjBGP2ks135:3 (Cdn Cache Server V2.0), 1.1 pingwangtong31:4 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cc_PS-SWA-015Pk105_43517-38232
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;上海&quot;,&quot;cityid&quot;:&quot;101020100&quot;,&quot;temp1&quot;:&quot;19℃&quot;,&quot;temp2&quot;:&quot;23℃&quot;,&quot;weather&quot;:&quot;大雨转中雨&quot;,&quot;img1&quot;:&quot;n9.gif&quot;,&quot;img2&quot;:&quot;d8.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101020100.html</java.net.URL>
+</httpSample>
+<httpSample t="152" it="0" lt="152" ct="101" ts="1599125451880" s="true" lb="2. ShangHai" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="601" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:52 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 6121
+X-Via: 1.1 PSbjwjBGP2ks135:3 (Cdn Cache Server V2.0), 1.1 pingwangtong31:4 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cb_PS-SWA-015Pk105_45594-61403
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;上海&quot;,&quot;cityid&quot;:&quot;101020100&quot;,&quot;temp1&quot;:&quot;19℃&quot;,&quot;temp2&quot;:&quot;23℃&quot;,&quot;weather&quot;:&quot;大雨转中雨&quot;,&quot;img1&quot;:&quot;n9.gif&quot;,&quot;img2&quot;:&quot;d8.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101020100.html</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="45" ct="22" ts="1599125452088" s="true" lb="2. ShangHai" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="601" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:52 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+X-Cache-Spec: Yes
+Age: 6121
+X-Via: 1.1 PSbjwjBGP2ks135:3 (Cdn Cache Server V2.0), 1.1 pingwangtong31:4 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cc_PS-SWA-015Pk105_43517-38291
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;上海&quot;,&quot;cityid&quot;:&quot;101020100&quot;,&quot;temp1&quot;:&quot;19℃&quot;,&quot;temp2&quot;:&quot;23℃&quot;,&quot;weather&quot;:&quot;大雨转中雨&quot;,&quot;img1&quot;:&quot;n9.gif&quot;,&quot;img2&quot;:&quot;d8.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101020100.html</java.net.URL>
+</httpSample>
+<httpSample t="50" it="0" lt="50" ct="27" ts="1599125454457" s="true" lb="3. BeiJing" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="584" sby="150" sc="1" ec="0" ng="10" na="10">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:54 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+Age: 13216271
+X-Via: 1.1 PSbjwjBGP2yt134:9 (Cdn Cache Server V2.0), 1.1 PS-TNA-01jlu46:12 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7ce_PS-SWA-015Pk105_43926-17739
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;北京&quot;,&quot;cityid&quot;:&quot;101010100&quot;,&quot;temp1&quot;:&quot;18℃&quot;,&quot;temp2&quot;:&quot;31℃&quot;,&quot;weather&quot;:&quot;多云转阴&quot;,&quot;img1&quot;:&quot;n1.gif&quot;,&quot;img2&quot;:&quot;d2.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101010100.html</java.net.URL>
+</httpSample>
+<httpSample t="71" it="0" lt="71" ct="29" ts="1599125454459" s="true" lb="3. BeiJing" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="584" sby="150" sc="1" ec="0" ng="9" na="9">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:54 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+Age: 13216271
+X-Via: 1.1 PSbjwjBGP2yt134:9 (Cdn Cache Server V2.0), 1.1 PS-TNA-01jlu46:12 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7ce_PS-SWA-015Pk105_45594-63148
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;北京&quot;,&quot;cityid&quot;:&quot;101010100&quot;,&quot;temp1&quot;:&quot;18℃&quot;,&quot;temp2&quot;:&quot;31℃&quot;,&quot;weather&quot;:&quot;多云转阴&quot;,&quot;img1&quot;:&quot;n1.gif&quot;,&quot;img2&quot;:&quot;d2.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101010100.html</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="22" ts="1599125454466" s="true" lb="3. BeiJing" rc="200" rm="OK" tn="Thread Group 1-3" dt="text" by="584" sby="150" sc="1" ec="0" ng="9" na="9">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:54 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+Age: 13216271
+X-Via: 1.1 PSbjwjBGP2yt134:9 (Cdn Cache Server V2.0), 1.1 PS-TNA-01jlu46:12 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7ce_PS-SWA-015Pk105_45978-42877
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;北京&quot;,&quot;cityid&quot;:&quot;101010100&quot;,&quot;temp1&quot;:&quot;18℃&quot;,&quot;temp2&quot;:&quot;31℃&quot;,&quot;weather&quot;:&quot;多云转阴&quot;,&quot;img1&quot;:&quot;n1.gif&quot;,&quot;img2&quot;:&quot;d2.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101010100.html</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="45" ct="23" ts="1599125454549" s="true" lb="3. BeiJing" rc="200" rm="OK" tn="Thread Group 1-4" dt="text" by="584" sby="150" sc="1" ec="0" ng="7" na="7">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:54 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+Age: 13216271
+X-Via: 1.1 PSbjwjBGP2yt134:9 (Cdn Cache Server V2.0), 1.1 PS-TNA-01jlu46:12 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7ce_PS-SWA-015Pk105_43517-39859
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;北京&quot;,&quot;cityid&quot;:&quot;101010100&quot;,&quot;temp1&quot;:&quot;18℃&quot;,&quot;temp2&quot;:&quot;31℃&quot;,&quot;weather&quot;:&quot;多云转阴&quot;,&quot;img1&quot;:&quot;n1.gif&quot;,&quot;img2&quot;:&quot;d2.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101010100.html</java.net.URL>
+</httpSample>
+<httpSample t="52" it="0" lt="52" ct="25" ts="1599125454629" s="true" lb="3. BeiJing" rc="200" rm="OK" tn="Thread Group 1-5" dt="text" by="584" sby="150" sc="1" ec="0" ng="6" na="6">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:54 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+Age: 13216271
+X-Via: 1.1 PSbjwjBGP2yt134:9 (Cdn Cache Server V2.0), 1.1 PS-TNA-01jlu46:12 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7ce_PS-SWA-015Pk105_45594-63242
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;北京&quot;,&quot;cityid&quot;:&quot;101010100&quot;,&quot;temp1&quot;:&quot;18℃&quot;,&quot;temp2&quot;:&quot;31℃&quot;,&quot;weather&quot;:&quot;多云转阴&quot;,&quot;img1&quot;:&quot;n1.gif&quot;,&quot;img2&quot;:&quot;d2.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101010100.html</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="21" ts="1599125454723" s="true" lb="3. BeiJing" rc="200" rm="OK" tn="Thread Group 1-6" dt="text" by="584" sby="150" sc="1" ec="0" ng="5" na="5">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:54 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+Age: 13216271
+X-Via: 1.1 PSbjwjBGP2yt134:9 (Cdn Cache Server V2.0), 1.1 PS-TNA-01jlu46:12 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7ce_PS-SWA-015Pk105_44561-59097
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;北京&quot;,&quot;cityid&quot;:&quot;101010100&quot;,&quot;temp1&quot;:&quot;18℃&quot;,&quot;temp2&quot;:&quot;31℃&quot;,&quot;weather&quot;:&quot;多云转阴&quot;,&quot;img1&quot;:&quot;n1.gif&quot;,&quot;img2&quot;:&quot;d2.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101010100.html</java.net.URL>
+</httpSample>
+<httpSample t="49" it="0" lt="49" ct="19" ts="1599125454830" s="true" lb="3. BeiJing" rc="200" rm="OK" tn="Thread Group 1-7" dt="text" by="584" sby="150" sc="1" ec="0" ng="4" na="4">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:54 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+Age: 13216271
+X-Via: 1.1 PSbjwjBGP2yt134:9 (Cdn Cache Server V2.0), 1.1 PS-TNA-01jlu46:12 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7ce_PS-SWA-015Pk105_43926-17954
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;北京&quot;,&quot;cityid&quot;:&quot;101010100&quot;,&quot;temp1&quot;:&quot;18℃&quot;,&quot;temp2&quot;:&quot;31℃&quot;,&quot;weather&quot;:&quot;多云转阴&quot;,&quot;img1&quot;:&quot;n1.gif&quot;,&quot;img2&quot;:&quot;d2.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101010100.html</java.net.URL>
+</httpSample>
+<httpSample t="59" it="0" lt="59" ct="35" ts="1599125455032" s="true" lb="3. BeiJing" rc="200" rm="OK" tn="Thread Group 1-9" dt="text" by="584" sby="150" sc="1" ec="0" ng="3" na="3">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:55 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+Age: 13216272
+X-Via: 1.1 PSbjwjBGP2yt134:9 (Cdn Cache Server V2.0), 1.1 PS-TNA-01jlu46:12 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cf_PS-SWA-015Pk105_43690-36172
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;北京&quot;,&quot;cityid&quot;:&quot;101010100&quot;,&quot;temp1&quot;:&quot;18℃&quot;,&quot;temp2&quot;:&quot;31℃&quot;,&quot;weather&quot;:&quot;多云转阴&quot;,&quot;img1&quot;:&quot;n1.gif&quot;,&quot;img2&quot;:&quot;d2.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101010100.html</java.net.URL>
+</httpSample>
+<httpSample t="59" it="0" lt="59" ct="31" ts="1599125455036" s="true" lb="3. BeiJing" rc="200" rm="OK" tn="Thread Group 1-8" dt="text" by="584" sby="150" sc="1" ec="0" ng="2" na="2">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:55 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+Age: 13216272
+X-Via: 1.1 PSbjwjBGP2yt134:9 (Cdn Cache Server V2.0), 1.1 PS-TNA-01jlu46:12 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cf_PS-SWA-015Pk105_45801-60606
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;北京&quot;,&quot;cityid&quot;:&quot;101010100&quot;,&quot;temp1&quot;:&quot;18℃&quot;,&quot;temp2&quot;:&quot;31℃&quot;,&quot;weather&quot;:&quot;多云转阴&quot;,&quot;img1&quot;:&quot;n1.gif&quot;,&quot;img2&quot;:&quot;d2.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101010100.html</java.net.URL>
+</httpSample>
+<httpSample t="45" it="0" lt="45" ct="21" ts="1599125455138" s="true" lb="3. BeiJing" rc="200" rm="OK" tn="Thread Group 1-10" dt="text" by="584" sby="150" sc="1" ec="0" ng="1" na="1">
+  <assertionResult>
+    <name>JSON Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Date: Thu, 03 Sep 2020 09:30:55 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: openresty
+X-Xss-Protection: 1
+Set-Cookie: HttpOnly
+Age: 13216272
+X-Via: 1.1 PSbjwjBGP2yt134:9 (Cdn Cache Server V2.0), 1.1 PS-TNA-01jlu46:12 (Cdn Cache Server V2.0), 1.1 PS-SWA-01KZq106:20 (Cdn Cache Server V2.0)
+X-Ws-Request-Id: 5f50b7cf_PS-SWA-015Pk105_43607-34670
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Host: www.weather.com.cn
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_231)
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;weatherinfo&quot;:{&quot;city&quot;:&quot;北京&quot;,&quot;cityid&quot;:&quot;101010100&quot;,&quot;temp1&quot;:&quot;18℃&quot;,&quot;temp2&quot;:&quot;31℃&quot;,&quot;weather&quot;:&quot;多云转阴&quot;,&quot;img1&quot;:&quot;n1.gif&quot;,&quot;img2&quot;:&quot;d2.gif&quot;,&quot;ptime&quot;:&quot;18:00&quot;}}</responseData>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">GET</method>
+  <queryString class="java.lang.String"></queryString>
+  <java.net.URL>http://www.weather.com.cn/data/cityinfo/101010100.html</java.net.URL>
+</httpSample>
+
+</testResults>
