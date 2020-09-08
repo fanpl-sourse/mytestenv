@@ -20,7 +20,7 @@ killSpringBoot()
 killSpringBoot
 
 ## Maven 编译
-cd ${WORKSPACE}/root
+cd ${WORKSPACE}/Demo_all/myJeeSite4/root
 mvn clean install
 
 ## Maven 运行
