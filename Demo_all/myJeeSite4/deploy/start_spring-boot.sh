@@ -24,5 +24,5 @@ cd ${WORKSPACE}/Demo_all/myJeeSite4/root
 mvn clean install
 
 ## Maven 运行
-cd ${WORKSPACE}/web
+cd ${WORKSPACE}/Demo_all/myJeeSite4/web
 nohup mvn clean spring-boot:run -Dmaven.test.skip=true &
