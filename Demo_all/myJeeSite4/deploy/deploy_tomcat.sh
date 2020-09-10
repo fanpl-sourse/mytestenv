@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 ## 需要在Jenkins任务中配置以下参数
-#export mysql_ip=mysql server ip or host
-#export mysql_port=mysql port
-#export mysql_user=mysql username
-#export mysql_pwd=mysql password
-#export TOMCAT_PATH=tomcat path
-#export PROJ_PATH=project path
+#export mysql_ip=127.0.0.1
+#export mysql_port=3306
+#export mysql_user=root
+#export mysql_pwd=123456
+#export TOMCAT_PATH=/Users/a/Documents/software/apache-tomcat-9.0.37/
+#export PROJ_PATH=${WORKSPACE}/Demo_all/myJeeSite4
 
 ## 检查系统类型
 export os_type=`uname`
