@@ -9,8 +9,8 @@ WORKDIR /Users/a/Documents/2020study/mytestenv/docker/code
 ENV FLASK_APP app.py
 ENV FLASK_RUN_HOST 0.0.0.0
 
-#复制 app.py到容器内 /code 目录
-COPY app.py /Users/a/Documents/2020study/mytestenv/docker/code
+#复制 app.py到容器内 工作路径 /code 目录
+COPY app.py .
 
 #安装gcc工具 Python 依赖
 RUN pip install flask && pip install redis

@@ -1,0 +1,1 @@
+(this.lizardLocaleMessages = this.lizardLocaleMessages || []).push({"@shimo/lizard-service-bootstrap":{},"@shimo/ui":{}})
