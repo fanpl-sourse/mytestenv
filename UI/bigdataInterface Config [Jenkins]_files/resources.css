@@ -1,0 +1,136 @@
+#visible-am-container {
+    height: 100%;
+}
+
+#visible-am-button {
+    position: relative;
+}
+
+#visible-am-button .am-monitor__count {
+    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    min-width: 20px;
+
+    color:#fff;
+    background-color: #dc3545;
+    font-weight: bold;
+
+    border-radius: 4px;
+}
+#visible-am-container div#visible-am-list {
+    position: absolute;
+    top: 48px;
+    right: 2%;
+    height: auto;
+    z-index: 0;
+    padding: 2em;
+    text-align: left;
+    display: block;
+    background-color: #fff;
+    background-color: var(--background);
+    border-radius: 5px;
+
+    /* Darken the box shadow to make the popup visible over the search box  */
+    box-shadow: 0 1px 7px 0 rgba(0,0,0,0.3);
+
+    transition: all .15s cubic-bezier(.84,.03,.21,.96);
+    opacity: 0;
+    transform: scale(0);
+}
+#visible-am-container.visible div#visible-am-list {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 1000;
+}
+#visible-am-container #visible-am-button:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 32%;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    opacity: 0;
+    transition: all .05s;
+    z-index: 1001;
+}
+#visible-am-container.visible #visible-am-button:after {
+    opacity: 1;
+    transition: all .25s;
+}
+#visible-am-container .am-message {
+    display: block;
+    line-height: 1.4em;
+    margin-bottom: 1.4em;
+}
+
+#visible-am-container .am-message .alert form {
+    position: relative;
+    float: right;
+    margin: -6px 0 0 0 !important;
+
+}
+
+#visible-am-container .am-message .alert form span {
+    margin: 0 0 0 4px !important;
+}
+
+#visible-am-container .am-message .alert {
+    margin-bottom: 0 !important;
+}
+
+#visible-am-container .am-message dl dt::after {
+    content: ": ";
+}
+
+/* Restore hyperlink style overriden by the page header */
+#visible-am-container #visible-am-list a:link {
+    display: inline-block;
+    color: #204A87;
+    color: var(--link-color);
+    text-decoration: underline;
+    margin-right: 0;
+    padding: 0;
+    font-weight: 600;
+    font-weight: var(--link-font-weight);
+}
+#visible-am-container #visible-am-list a:visited {
+    color: #5c3566;
+    color: var(--link-color);
+}
+#visible-am-container #visible-am-list a:hover,
+#visible-am-container #visible-am-list a:focus,
+#visible-am-container #visible-am-list a:active {
+    color: #5c3566;
+    color: var(--link-color);
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration: var(--link-text-decoration--hover);
+}
+
+#visible-am-container #visible-am-list .alert-success a {
+    color: #155724;
+    color: var(--alert-success-text-color);
+}
+
+
+#visible-am-container #visible-am-list .alert-info a {
+    color: #31708f;
+    color: var(--alert-info-text-color);
+}
+
+#visible-am-container #visible-am-list .alert-warning a {
+    color: #8a6d3b;
+    color: var(--alert-warning-text-color);
+}
+
+#visible-am-container #visible-am-list .alert-danger a {
+    color: #a94442;
+    color: var(--alert-danger-text-color);
+}
